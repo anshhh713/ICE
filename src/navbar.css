@@ -3,4 +3,36 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 6px 0px;
+    background-color: rgba(247, 227, 227, 0.703);
+    height: 10vh;
+}
+.search{
+    border-radius: 18px;
+    padding: 8px 25px;
+    text-align: center;
+}
+
+.logo{
+    padding-left: 10px;
+}
+
+.profile{
+    padding-right: 10px;
+}
+
+.logo-bar{
+    display: flex;
+    gap: 10px;
+}
+
+.placehold> ul{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    align-items: center;
+    list-style: none;
+}
+.placehold a{
+    text-decoration: none;
 }
