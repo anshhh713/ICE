@@ -1,5 +1,6 @@
+import type { FC } from "react";
 import "./navbar.css";
-function Navbar() {
+const Navbar: FC = () => {
   return (
     <>
       <nav className="navbar">
