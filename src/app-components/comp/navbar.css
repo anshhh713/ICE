@@ -6,6 +6,8 @@
     padding: 6px 0px;
     background-color: rgba(247, 227, 227, 0.703);
     height: 10vh;
+    width: 100vw;
+    position:fixed;
 }
 .search{
     border-radius: 18px;

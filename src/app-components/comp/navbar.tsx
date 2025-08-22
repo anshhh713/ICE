@@ -5,7 +5,7 @@ const Navbar: FC = () => {
     <>
       <nav className="navbar">
         <div className="logo-bar">
-          <img className="logo" src="" alt="logo" />
+          <img className="logo" src="#" alt="logo" />
           <h2>ICE</h2>
         </div>
         <div className="placehold">
@@ -25,7 +25,7 @@ const Navbar: FC = () => {
           </ul>
         </div>
         <input className="search" type="search" placeholder="Search..." />
-        <img className="profile" src="" alt="profile" />
+        <img className="profile" src="#" alt="profile" />
       </nav>
     </>
   );

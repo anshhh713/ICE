@@ -1,19 +1,19 @@
 
-
+import type { FC } from 'react'
 import './App.css'
-import Navbar from './app-components/navbar.tsx'
-import Banner from './app-components/banner.tsx'
-import CardHolder from './app-components/card-holder.tsx'
-import Footer from './app-components/footer.tsx'
-function App() {
+import Navbar from './app-components/comp/navbar.tsx'
+import Banner from './app-components/comp/banner.tsx'
+import MainContent from './app-components/content/main-content.tsx'
+import Footer from './app-components/comp/footer.tsx'
+const App: FC = () => {
   
 
   return (
     <>
       <Navbar />
       <Banner />
-      <CardHolder />
-      <Footer />
+      <MainContent />
+      <Footer content='footer content' />
     </>
   )
 }

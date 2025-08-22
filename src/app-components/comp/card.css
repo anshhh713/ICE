@@ -1,0 +1,39 @@
+.card{
+    border: 1px solid black;
+    width:13vw;
+    height: 40vh;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card-photo{
+    border: 1px solid black;
+    width: 100%;
+    height: 30vh;
+}
+
+.card-label{
+    padding: 4px 5px;
+    width: auto;
+}
+
+
+
+.card-label > h3 {
+    font-size: 18px;
+}
+
+.card-label > h3:hover{
+    cursor: text;
+}
+
+
+.card-label > p {
+    font-size: 14px;
+}
+
+.card-label > p:hover {
+    cursor: text;
+}
