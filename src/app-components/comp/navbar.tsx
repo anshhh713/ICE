@@ -11,16 +11,16 @@ const Navbar: FC = () => {
         <div className="placehold">
           <ul>
             <li>
-              <a href="">Home</a>
+              <a href="" className="placeholde">Home</a>
             </li>
             <li>
-              <a href="">Contact Us</a>
+              <a href="" className="placeholde">Contact Us</a>
             </li>
             <li>
-              <a href="">About</a>
+              <a href="" className="placeholde">About</a>
             </li>
             <li>
-              <a href="">Features</a>
+              <a href="" className="placeholde">Features</a>
             </li>
           </ul>
         </div>

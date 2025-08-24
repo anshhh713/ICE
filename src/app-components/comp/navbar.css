@@ -37,4 +37,14 @@
 }
 .placehold a{
     text-decoration: none;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 0.1rem 0.3rem;
+    
+}
+
+.placehold>ul>li> a:hover{
+    background-color: pink;
+    border-color: pink;
+    
 }
