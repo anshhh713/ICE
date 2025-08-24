@@ -1,5 +1,7 @@
 import type { FC } from "react";
-import { Snowflake } from 'lucide-react';
+
+import Snowflake from "../../../public/ice.svg?react";
+import { Search } from "lucide-react";
 import "./navbar.css";
 const Navbar: FC = () => {
   return (
@@ -12,23 +14,36 @@ const Navbar: FC = () => {
         <div className="placehold">
           <ul>
             <li>
-              <a href="" className="placeholde">Home</a>
+              <a href="" className="placeholde">
+                Home
+              </a>
             </li>
             <li>
-              <a href="" className="placeholde">Contact Us</a>
+              <a href="" className="placeholde">
+                Contact Us
+              </a>
             </li>
             <li>
-              <a href="" className="placeholde">About</a>
+              <a href="" className="placeholde">
+                About
+              </a>
             </li>
             <li>
-              <a href="" className="placeholde">Features</a>
+              <a href="" className="placeholde">
+                Features
+              </a>
             </li>
           </ul>
         </div>
-        <input className="search" type="search" placeholder="Search..." />
+        <div className="search-bar">
+          <input className="search" type="search" placeholder="Search..." />
+          <button type="submit" className="search-button">
+            <Search className="search-b" />
+          </button>
+        </div>
         <img className="profile" src="#" alt="profile" />
       </nav>
     </>
   );
-}
+};
 export default Navbar;

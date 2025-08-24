@@ -10,6 +10,7 @@ declare module '*.jpeg';
 declare module '*.gif';
 
 // Allow importing SVGs (as a file path)
+
 declare module '*.svg' {
   const content: string;
   export default content;

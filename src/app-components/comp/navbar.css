@@ -9,10 +9,27 @@
     width: 100vw;
     position:fixed;
 }
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.search-button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: rgba(160, 227, 246, 0.9);
+
+}
+.search-b:hover{
+    transform: scale(1.1);
+    transition: all 1ms ease-in-out;
+}
 .search{
     border-radius: 18px;
     padding: 8px 25px;
     text-align: center;
+    border-color: rgba(160, 227, 246, 0.9);
 }
 
 
@@ -27,7 +44,7 @@
     align-items: center;
     width: auto;
     padding-left: 1rem;
-    gap: 1px;
+    gap: 4px;
 }
 
 .logo{
@@ -37,7 +54,7 @@
 
 .logo:hover{
     transform: rotate(2160deg) scale(1.05);
-    transition: all 2s ease-in-out;
+    transition: all 3s ease-in-out;
 }
 
 .placehold> ul{
