@@ -3,6 +3,7 @@ import type { FC } from "react";
 import Snowflake from "../../../public/ice.svg?react";
 import { Search } from "lucide-react";
 import "./navbar.css";
+import User from "./user-mng/user";
 const Navbar: FC = () => {
   return (
     <>
@@ -41,7 +42,7 @@ const Navbar: FC = () => {
             <Search className="search-b" />
           </button>
         </div>
-        <img className="profile" src="#" alt="profile" />
+        <User dn="Jhon Cena" dp="/jhoncena.jpg" />
       </nav>
     </>
   );
