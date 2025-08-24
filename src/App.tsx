@@ -13,7 +13,7 @@ const App: FC = () => {
       <Navbar />
       <Banner />
       <MainContent />
-      <Footer content='footer content' />
+      <Footer author='John Cena' />
     </>
   )
 }

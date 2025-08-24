@@ -1,7 +1,7 @@
 import "./footer.css";
 import type { FC } from "react";
 type FooterProps = {
-  content: string;
+  author: string;
 };
 const Footer: FC<FooterProps> = (props) => {
   return (
@@ -12,13 +12,13 @@ const Footer: FC<FooterProps> = (props) => {
         <a href="/terms-of-service">Terms of Service</a>
         <a href="/about">About Us</a>
         <a href="/contact">Contact</a>
-        <a href="https://github.com/anshhh713/ICE">Github-link</a>
+        <a href="https://github.com/anshhh713/ICE">Github-repo-link</a>
       </nav>
       <p className="footer-note">
         Made with ❤️ using Vite + React + TypeScript
       </p>
       <p className="credits">
-        Authors - Ansh Rawat, Rei WuZen
+        Authors - Ansh Rawat, Rei WuZen, {props.author}
       </p>
     </div>
   );
