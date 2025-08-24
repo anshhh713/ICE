@@ -14,3 +14,7 @@
     height: 2.5rem;
     object-fit: cover;
 }
+.user-dp:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
