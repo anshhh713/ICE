@@ -1,11 +1,12 @@
 import type { FC } from "react";
+import { Snowflake } from 'lucide-react';
 import "./navbar.css";
 const Navbar: FC = () => {
   return (
     <>
       <nav className="navbar">
         <div className="logo-bar">
-          <img className="logo" src="#" alt="logo" />
+          <Snowflake className="logo" />
           <h2>ICE</h2>
         </div>
         <div className="placehold">
